@@ -1,4 +1,4 @@
-# Working with Big Data 2 (Scala / Spark)
+# Working with Big Data 2 (Scala / Apache Spark)
 
 This project demonstrates the usage of Apache Spark in Big Data. Input files are located in input folder.
 

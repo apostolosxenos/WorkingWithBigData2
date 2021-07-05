@@ -20,6 +20,7 @@ object ChessStatistics {
       .filter(row => row != header)
       .map(row => row.split(",")).cache()
 
+    // 2.1
     val playersPairsRDD = splitGamesData
       .map(row => {
         val whitePlayerId = row(8)
@@ -37,6 +38,7 @@ object ChessStatistics {
         }
       })
 
+    // 2.2
     val pairsPlayedMoreThanFiveTimesTogether = playersPairsRDD
       .map(row => (row, 1))
       .reduceByKey(_ + _)
@@ -45,6 +47,7 @@ object ChessStatistics {
 
     pairsPlayedMoreThanFiveTimesTogether.foreach(println)
 
+    // 2.3
     val allMoves = splitGamesData
       .flatMap(row => row(12).split("\\s+"))
       .map(move => (move, 1))

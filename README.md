@@ -1,6 +1,6 @@
 # Working with Big Data 2 (Scala / Spark)
 
-This project demostrates the usage of Spark in Big Data.
+This project demonstrates the usage of Spark in Big Data.
 
 RDD transformations, as listed below, take place in WordCount and ChessStatistics tasks.
 
@@ -10,10 +10,23 @@ RDD transformations, as listed below, take place in WordCount and ChessStatistic
 
 1.3 Five most frequent words whose length is more than average, sorted by value in descending order
 
+
+---
+
 2.1 All pairs of players
 
 2.2 Pairs of players which played more than fives times against each other
 
 2.3 All moves
 
+---
+
 DataFrames have been created to process input data in CovidStatistics and SalesStatistics tasks. 
+
+3.1 Covid cases in Greece in December 2020
+
+3.2 Total cases and deaths for each continect
+
+3.3 Daily mean cases and deaths for each European country
+
+3.4 Dates with most cases in Europe

@@ -21,7 +21,7 @@ RDD transformations, as listed below, take place in WordCount and ChessStatistic
 
 ---
 
-DataFrames have been created to process input data in CovidStatistics and SalesStatistics tasks. 
+DataFrames have been created to process input data in CovidStatistics and SalesStatistics tasks as per below: 
 
 3.1 Covid cases in Greece in December 2020
 
@@ -30,3 +30,15 @@ DataFrames have been created to process input data in CovidStatistics and SalesS
 3.3 Daily mean cases and deaths for each European country
 
 3.4 Dates with most cases in Europe
+
+---
+
+4.1 Highest price invoices (top5)
+
+4.2 Most popular products (top5)
+
+4.3 Products included in the most invoices (top5)
+
+4.4 Total number of invoices
+
+4.5 Best customers (top5)

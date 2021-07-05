@@ -1,6 +1,6 @@
 # Working with Big Data 2 (Scala / Spark)
 
-This project demonstrates the usage of Spark in Big Data. Input files are located in input folder.
+This project demonstrates the usage of Apache Spark in Big Data. Input files are located in input folder.
 
 RDD transformations, as listed below, take place in WordCount and ChessStatistics tasks.
 
